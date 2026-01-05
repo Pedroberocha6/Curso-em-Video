@@ -1,0 +1,7 @@
+nome = str (input("Digite seu nome para ver as informacoes: ")).strip()
+contar = nome.split()
+semEspaco = "".join(contar)
+print (f"Nome em maiusculo {nome.upper()}. ")
+print (f"Nome em minusculo {nome.lower()}. ")
+print (f"Seu nome possui {len(semEspaco)} letras. ")
+print (f"Seu primeiro nome tem {len(contar[0])} letras. ")
